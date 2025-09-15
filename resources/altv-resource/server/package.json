@@ -1,0 +1,12 @@
+{
+  "name": "server",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@altv/types-server": "latest",
+    "@altv/types-shared": "latest",
+    "typescript": "latest"
+  }
+}

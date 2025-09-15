@@ -1,0 +1,44 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@altv/types-server':
+        specifier: latest
+        version: 16.6.0(@altv/types-shared@16.6.0)
+      '@altv/types-shared':
+        specifier: latest
+        version: 16.6.0
+      typescript:
+        specifier: latest
+        version: 5.9.2
+
+packages:
+
+  '@altv/types-server@16.6.0':
+    resolution: {integrity: sha512-2uD1mjIwf2Sje/BI+3nSlXx9Q+x9GQ66jpCzZctYY14F9VOXqX5+kZk6jRSv31veCMV+yGubuj0l1kIrBTncPg==}
+    peerDependencies:
+      '@altv/types-shared': ^16.4.1
+
+  '@altv/types-shared@16.6.0':
+    resolution: {integrity: sha512-N9WP/OW9Mofs7EgRrsP/eGQPeClk0E0T+wjBZj6Aqkabu/47ONtYp23x829k4EqRwXr7eJ6BvQDoyK9cIuKZ/g==}
+
+  typescript@5.9.2:
+    resolution: {integrity: sha512-CWBzXQrc/qOkhidw1OzBTQuYRbfyxDXJMVJ1XNwUHGROVmuaeiEm3OslpZ1RV96d7SKKjZKrSJu3+t/xlw3R9A==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+snapshots:
+
+  '@altv/types-server@16.6.0(@altv/types-shared@16.6.0)':
+    dependencies:
+      '@altv/types-shared': 16.6.0
+
+  '@altv/types-shared@16.6.0': {}
+
+  typescript@5.9.2: {}

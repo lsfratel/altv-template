@@ -1,0 +1,11 @@
+name = 'alt:V Server'
+port = 7788
+debug = true
+players = 128
+announce = false
+language = 'pt'
+useCdn = false
+modules = ['js-module']
+resources = [
+    "altv-resource"
+]

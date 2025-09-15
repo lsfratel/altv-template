@@ -1,0 +1,11 @@
+/data/
+/modules/
+/altv-crash-handler
+/altv-server
+/.server-crashes-cache/
+/cache/
+/server.log
+/libnode.so
+
+**/node_modules/
+**/dist/

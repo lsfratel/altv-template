@@ -1,0 +1,13 @@
+{
+  "name": "client",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "@altv/types-client": "latest",
+    "@altv/types-shared": "latest",
+    "@altv/types-natives": "latest",
+    "typescript": "latest"
+  }
+}

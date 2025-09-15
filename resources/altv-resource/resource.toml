@@ -1,0 +1,7 @@
+type            = "js"
+client-type     = "js"
+
+main            = "server/dist/index.js"
+client-main     = "client/dist/index.js"
+
+client-files    = ["webview/dist/*"]
