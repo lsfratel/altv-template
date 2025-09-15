@@ -1,8 +1,8 @@
 dev:
-    cd resources/altv-frost/webview && pnpm dev
+    cd resources/altv-resource/webview && pnpm dev
 
 pnpm PROJECT ACTION:
-    cd resources/altv-frost/{{PROJECT}} && pnpm {{ACTION}}
+    cd resources/altv-resource/{{PROJECT}} && pnpm {{ACTION}}
 
 clean:
     git clean -Xfd
