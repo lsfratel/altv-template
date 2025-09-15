@@ -5,6 +5,7 @@ players = 128
 announce = false
 language = 'pt'
 useCdn = false
+spawnAfterConnect = true
 modules = ['js-module']
 resources = [
     "altv-resource"
